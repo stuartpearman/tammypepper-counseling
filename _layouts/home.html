@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ site.title }}</title>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html %}
+  <section class="hero">
+    <div class="backdrop" style="background: url({{ page.hero.image }}) fixed; background-size: cover; background-position: center;"></div>
+    <div class="hero-content">
+      {{ page.hero.content }}
+      <div>
+        <a href="{{ page.hero.button-url }}" class="btn btn-lg btn-white">{{ page.hero.button-text }}</a>
+      </div>
+    </div>
+  </section>
+  {% if page.sections %}
+    {% for section in page.sections %}
+      <section 
+        {% if section.image %}
+          class="image-section"
+        {% elsif section.type %}
+          class="{{ section.type }}" 
+        {% endif %}
+      >
+        {% if section.image %}
+          <div
+            class="backdrop"
+            style="background: url({{ section.image }}); background-size: cover; background-attachment: fixed;"
+          ></div>
+        {% endif %}
+        <div class="container">
+          <h2>{{ section.title }}</h2>
+          {{ section.body | mardownify }}
+        </div>
+      </section>
+    {% endfor %}
+  {% endif %}
+  {% include footer.html %}
+</body>
+</html>
