@@ -24,3 +24,11 @@ markdown: kramdown
 exclude:
 - Gemfile
 - Gemfile.lock
+
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
