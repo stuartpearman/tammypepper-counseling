@@ -16,6 +16,8 @@ description: 'Write an awesome description for your new site here. You can edit 
 '
 baseurl: ''
 url: ''
+sass:
+  sass_dir: css
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
