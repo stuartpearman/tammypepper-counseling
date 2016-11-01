@@ -46,7 +46,6 @@ sections:
       - Focus on achieving optimal health
       - Create positive life changes
   image: "/uploads/girlfriends-photos-680298_1920.jpg"
-
 layout: home
 ---
 
