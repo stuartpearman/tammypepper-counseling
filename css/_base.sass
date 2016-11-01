@@ -1,8 +1,9 @@
+$orange: #e50
+$vertical-space: 90px 0
+
 body
 	font-size: 1.2em
 	color: #333
-
-$vertical-space: 100px 0
 
 section, footer
 	overflow: auto
@@ -25,30 +26,29 @@ section
 		z-index: 1
 
 header
-	padding-top: 20px
+	padding: 20px 0
 	position: absolute
 	width: 100%
 	z-index: 12
+	box-shadow: inset 0px 80px 120px -80px #000
 
 .navbar
 	padding: 0
-	border-bottom: 2px solid rgba(255,255,255,0.5)
 	.nav-link
 		color: #fff
 		padding: 20px 20px
 		background: transparent
 		transition: all 0.2s
-		border: 2px solid transparent
-		border-bottom: 0
 		&:hover
 			border-color: #fff
 
 	.nav-item
 		margin: 0 20px
+		border-bottom: 4px solid transparent
 		&:first-child
 			margin-left: 0px
 		&.active
-
+			border-color: #fff
 
 .btn
 	border-radius: 0
@@ -66,8 +66,8 @@ header
 		border-color: #fff
 		color: #fff
 		&:hover
-			border-color: #e50
-			color: #e50
+			border-color: $orange
+			color: $orange
 
 .hero
 	height: 90vh
