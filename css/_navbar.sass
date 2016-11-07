@@ -1,0 +1,78 @@
+.navbar
+	margin-top: -5px
+	padding: 0
+	.nav-link
+		color: #333
+		padding: 20px 20px
+		background: transparent
+	.nav-item
+		margin: 0 10px
+		border-top: 5px solid transparent
+		&.active
+			border-color: #888
+		&:hover
+			border-color: $light-orange
+			.nav-link
+				color: darken($orange, 6%)
+	.navbar-brand
+		padding: 20px
+		margin-left: -20px
+		border-top: 5px solid transparent
+		color: #333
+		&:hover
+			border-color: $light-orange
+			color: darken($orange, 6%)
+	@media (max-width: $screen-sm)
+		.nav-item
+			margin: 0
+			border-top: 1px solid #eee
+			&.active
+				border-color: #eee
+		.nav-link
+			padding: 20px 0
+
+.page-home .navbar
+	.navbar-brand
+		color: #fff
+		border-color: #fff
+		&:hover
+			border-color: $light-orange
+			color: #fff
+	.nav-link
+		color: #fff
+	.nav-item
+		&.active
+			border-color: #fff
+		&:hover
+			.nav-link
+				color: #f0f0f0
+
+.navbar-toggler
+	background: #fff
+	float: right
+	margin-top: 20px
+
+.nav-contact-link
+	margin-top: 18px
+	.btn
+		background: rgba(255,255,255,0.5)
+		color: #555
+		border: 1px solid #ccc
+		font-size: 1em
+		font-weight: 400
+		border-radius: 3px
+	@media (max-width: $screen-sm)
+		display: block
+		margin-top: 10px
+		padding-top: 20px
+		border-top: 1px solid #ddd
+		margin-bottom: 15px
+		text-align: center
+		.btn
+			border: none
+			background: #e5e5e5
+
+#navbarResponsive
+	@media (max-width: $screen-sm)
+		clear: both
+		text-align: center
