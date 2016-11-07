@@ -16,19 +16,13 @@ sections:
   cards:
   - title: Get Unstuck
     body: |-
-      * Move forward in their life
-
-      * Focus on achieving optimal health
-
-      * Create positive life changes
-
-      * Take back control
-
-      * Find a new path & move forward
-
-      * Design manageable steps of action
-
-      * Uncover sources of resistance
+      - Move forward in their life
+      - Focus on achieving optimal health
+      - Create positive life changes
+      - Take back control
+      - Find a new path & move forward
+      - Design manageable steps of action
+      - Uncover sources of resistance
   - title: Manage Their Emotions
     body: |-
       - Build their self-esteem and confidence
