@@ -4,8 +4,7 @@ navigation: false
 hero:
   image: "/uploads/young-people-737150_1920.jpg"
   content: Teen Life Coach Counseling
-  button-text: Get in touch
-  button-url: http://google.com
+  button-text: Contact Me
 sections:
 - title: Why Would Teens Need Counseling?
   body: |-
