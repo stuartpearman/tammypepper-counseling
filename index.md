@@ -1,5 +1,6 @@
 ---
 title: Home
+navigation: false
 hero:
   image: "/uploads/young-people-737150_1920.jpg"
   content: Teen Life Coach Counseling
