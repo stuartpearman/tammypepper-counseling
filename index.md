@@ -15,37 +15,35 @@ sections:
 - title: The Benefits for Teens
   cards:
   - title: Get Unstuck
-    body: |-
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
+    body: "- Move forward in their life\n- Focus on achieving optimal health\n- Create
+      positive life changes\n- Take back control\t\t\t\n- Find a new path & move forward\t\t-
+      Design manageable steps of action\t\n- Uncover sources of resistance"
   - title: Manage Their Emotions
     body: |-
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
+      - Build their self-esteem and confidence
+      - Break free of anxiety and fear of the unknown
+      - Be motivated and feel empowered
+      - Gain tools to cope with life pressures
+      - Create a more balanced life
+      - Reduce their stress & be less overwhelmed
+      - Establish healthy boundaries
   - title: Develop Healthy Relationships
     body: |-
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
+      - Progress in their relationships
+      - Form stronger family bonds
+      - Improve communication skills
+      - Control their behavior
+      - Stand up & conquer peer pressure
+      - Develop supportive friendships
+      - Let go of resentments
   - title: Reach Their Goals
     body: |-
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
-      - Move forward in their life
-      - Focus on achieving optimal health
-      - Create positive life changes
+      - Find their unique purpose and passion
+      - Realize their authentic self and strengths
+      - Become more intentional about reaching goals
+      - Identify what they really want for their future
+      - Figure out and focus on priorities
+      - Utilize valuable assessment tools to reveal important characteristics about themselves
   image: "/uploads/girlfriends-photos-680298_1920.jpg"
 layout: home
 ---
