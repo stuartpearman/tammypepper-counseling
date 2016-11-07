@@ -16,9 +16,11 @@
 				color: darken($orange, 6%)
 	.navbar-brand
 		padding: 20px
+		padding-top: 12px
 		margin-left: -20px
 		border-top: 5px solid transparent
 		color: #333
+		font-size: 1.4em
 		&:hover
 			border-color: $light-orange
 			color: darken($orange, 6%)
@@ -46,11 +48,16 @@
 		&:hover
 			.nav-link
 				color: #f0f0f0
+	@media (max-width: $screen-sm)
+		.nav-item
+			border-top-color: rgba(255,255,255,0.1)
+			&:hover
+				background: rgba(255,255,255,0.1)
 
 .navbar-toggler
 	background: #fff
 	float: right
-	margin-top: 20px
+	margin-top: 17px
 
 .nav-contact-link
 	margin-top: 18px
@@ -68,6 +75,7 @@
 		border-top: 1px solid #ddd
 		margin-bottom: 15px
 		text-align: center
+		float: none
 		.btn
 			border: none
 			background: #e5e5e5
@@ -76,3 +84,5 @@
 	@media (max-width: $screen-sm)
 		clear: both
 		text-align: center
+		.nav.navbar-nav
+			margin: 0
