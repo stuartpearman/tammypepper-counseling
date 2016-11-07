@@ -1,6 +1,7 @@
 ---
 title: Confidentiality
 date: 2016-11-07 15:16:00 Z
+permalink: "/confidentiality/"
 navigation: Confidentiality
 ---
 
