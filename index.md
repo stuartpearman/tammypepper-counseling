@@ -12,6 +12,7 @@ sections:
 
     While today’s teens are more scheduled and pressured than ever, they are also coming of age in a world where setting aside time to teach and foster healthy human connections, creativity and self-knowledge has become more difficult to achieve. Life coach counseling guides teenagers to make positive changes so they can reach their fullest potential and gain the life they want.
 - title: The Benefits for Teens
+  subtitle: Teens Can...
   cards:
   - title: Get Unstuck
     body: |-
