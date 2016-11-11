@@ -8,12 +8,13 @@
   {% include header.html %}
   <section class="hero">
     <div class="backdrop" style="background: url({{ page.hero.image }}) fixed; background-size: cover; background-position: center bottom;"></div>
-    <div class="hero-content">
-      {{ page.hero.content }}
-      <span class="hero-subheading" style="">Dr. Tamara Pepper</span>
-      <div>
-        <div class="btn btn-lg btn-opaque" data-toggle="modal" data-target=".contact-modal">{{ page.hero.button-text }}</div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Dr. Tamara J. Pepper</h1>
+        <h2 class="hero-subheading">{{ page.hero.content }}</h2>
+        <p class="hero-quote">Every new day is a chance to change your life.</p>
       </div>
+
     </div>
   </section>
   {% if page.sections %}
@@ -32,11 +33,19 @@
           ></div>
         {% endif %}
         <div class="container">
-          <h2>{{ section.title }}</h2>
+          <div class="section-header">
+            <h2>{{ section.title }}</h2>
+            {% if section.subtitle %}
+              <h3>{{ section.subtitle }}</h3>
+            {% endif %}
+          </div>
+
           {% if section.cards %}
-            <div class="text-xs-center">
-              <a href="#" class="btn btn-lg btn-opaque">Learn More</a>
-            </div>
+            {% if section.button %}
+              <div class="text-xs-center">
+                <a href="#" class="btn btn-lg btn-opaque">Learn More</a>
+              </div>
+            {% endif %}
             <div class="row cards">
               {% for card in section.cards %}
                 <div class="col-lg-6">
