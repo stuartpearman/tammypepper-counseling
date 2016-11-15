@@ -49,7 +49,7 @@ sections:
       - Identify what they really want for their future
       - Figure out and focus on priorities
       - Utilize valuable assessment tools to reveal important characteristics about themselves
-  image: "/uploads/girlfriends-photos-680298_1920.jpg"
+  image: "/uploads/0214_as_11_18_teen_and_life_coach_1000x666.jpg"
 layout: home
 ---
 
