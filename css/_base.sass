@@ -90,7 +90,7 @@ section
 			margin: 0em auto 0.7em
 			color: #444
 			text-align: center
-			border-bottom: 1px solid #ddd
+			border-bottom: 1px solid #eee
 			padding: 10px 30px 20px 30px
 			display: inline-block
 
@@ -111,10 +111,33 @@ section
 			h2
 				color: #fff
 				text-shadow: 0 0 12px rgba(0, 0, 0, 0.3)
-				border-bottom-color: rgba(255,255,255,0.5)
+				border-bottom-color: rgba(255,255,255,0.3)
 	&.black
 		background: #000
 		color: #aaa
+
+.carousel-control
+	&.right, &.left
+		background: none
+		text-shadow: none
+		color: #aaa
+		width: 80px
+		@media (max-width: $screen-xs)
+			display: none
+			opacity: 0
+
+.carousel-indicators
+	li
+		background: #ccc
+		border: none
+		&.active
+			background: #aaa
+			box-shadow: none
+	margin-bottom: -60px
+
+.carousel-inner
+	.container
+		padding: 0 40px
 
 header
 	border-top: 5px solid #f2f2f2
@@ -132,7 +155,7 @@ header.page-home
 	position: absolute
 	border-bottom: 0
 	@media (max-width: $screen-sm)
-		background: darken(rgba(118,134,144,0.8), 40%)
+		background: darken(rgba(118,134,144,1), 34%)
 		padding: 0
 
 .hero
@@ -207,6 +230,7 @@ header.page-home
 	left: 0
 	right: 0
 	opacity: 0.6
+	filter: grayscale(20%)
 
 footer
 	background: #000
@@ -220,3 +244,8 @@ footer
 		width: 100%
 		position: fixed
 		bottom: 0
+
+.modal-content
+	padding: 10px
+	.modal-header, .modal-body
+		padding: 22px 15px

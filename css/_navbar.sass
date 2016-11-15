@@ -28,8 +28,12 @@
 		.nav-item
 			margin: 0
 			border-top: 1px solid #eee
-			&.active
+			&.active, &:hover
 				border-color: #eee
+			&:hover
+				background: #f6f6f6
+				.nav-link
+					color: #333
 		.nav-link
 			padding: 20px 0
 
@@ -62,6 +66,10 @@
 	float: right
 	margin-top: 17px
 
+.page-home .navbar-toggler
+	@media (max-width: $screen-sm)
+		margin-top: 25px
+
 .nav-contact-link
 	margin-top: 18px
 	.btn
@@ -85,6 +93,9 @@
 	.btn
 		color: #fff
 		margin-top: 10px
+		margin-bottom: 10px
+		@media (max-width: $screen-sm)
+			background: rgba(255,255,255,0.1)
 
 #navbarResponsive
 	@media (max-width: $screen-sm)
