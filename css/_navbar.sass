@@ -28,8 +28,12 @@
 		.nav-item
 			margin: 0
 			border-top: 1px solid #eee
-			&.active
+			&.active, &:hover
 				border-color: #eee
+			&:hover
+				background: #f6f6f6
+				.nav-link
+					color: #333
 		.nav-link
 			padding: 20px 0
 
@@ -37,12 +41,15 @@
 	.navbar-brand
 		color: #fff
 		border-color: #fff
+		.fa
+			padding-top: 18px
 		&:hover
 			border-color: $light-orange
 			color: #fff
 	.nav-link
 		color: #fff
 	.nav-item
+		padding-top: 10px
 		&.active
 			border-color: #fff
 		&:hover
@@ -59,10 +66,13 @@
 	float: right
 	margin-top: 17px
 
+.page-home .navbar-toggler
+	@media (max-width: $screen-sm)
+		margin-top: 25px
+
 .nav-contact-link
 	margin-top: 18px
 	.btn
-		background: rgba(255,255,255,0.5)
 		color: #555
 		border: 1px solid #ccc
 		font-size: 1em
@@ -79,6 +89,13 @@
 		.btn
 			border: none
 			background: #e5e5e5
+.page-home .nav-contact-link
+	.btn
+		color: #fff
+		margin-top: 10px
+		margin-bottom: 10px
+		@media (max-width: $screen-sm)
+			background: rgba(255,255,255,0.1)
 
 #navbarResponsive
 	@media (max-width: $screen-sm)
