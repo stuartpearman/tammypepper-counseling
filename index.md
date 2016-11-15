@@ -72,7 +72,6 @@ sections:
 
       -- Samantha, age 19
     slidenumber: 3
-      
 layout: home
 ---
 
