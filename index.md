@@ -3,7 +3,7 @@ title: Home
 navigation: false
 hero:
   image: "/uploads/young-people-737150_1920.jpg"
-  content: Teen Life Coach Counseling
+  content: Teen Life Coach Counselor
   button-text: Contact Me
 sections:
 - title: Why Would Teens Need Counseling?
@@ -40,7 +40,7 @@ sections:
       - Control their behavior
       - Stand up & conquer peer pressure
       - Develop supportive friendships
-      - Let go of resentments
+      - Let go of unforgiveness and resentments
   - title: Reach Their Goals
     body: |-
       - Find their unique purpose and passion

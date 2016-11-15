@@ -37,12 +37,15 @@
 	.navbar-brand
 		color: #fff
 		border-color: #fff
+		.fa
+			padding-top: 18px
 		&:hover
 			border-color: $light-orange
 			color: #fff
 	.nav-link
 		color: #fff
 	.nav-item
+		padding-top: 10px
 		&.active
 			border-color: #fff
 		&:hover
@@ -62,7 +65,6 @@
 .nav-contact-link
 	margin-top: 18px
 	.btn
-		background: rgba(255,255,255,0.5)
 		color: #555
 		border: 1px solid #ccc
 		font-size: 1em
@@ -79,6 +81,10 @@
 		.btn
 			border: none
 			background: #e5e5e5
+.page-home .nav-contact-link
+	.btn
+		color: #fff
+		margin-top: 10px
 
 #navbarResponsive
 	@media (max-width: $screen-sm)
