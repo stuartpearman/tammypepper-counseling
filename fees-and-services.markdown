@@ -2,6 +2,7 @@
 title: Fees & Services
 date: 2016-11-07 15:18:00 Z
 permalink: "/services/"
+position: 1
 navigation: Services
 ---
 

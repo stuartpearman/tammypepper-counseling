@@ -1,6 +1,7 @@
 ---
 title: Meet Dr. Tamara J. Pepper
 permalink: "/about/"
+position: 0
 navigation: Meet The Counselor
 ---
 
