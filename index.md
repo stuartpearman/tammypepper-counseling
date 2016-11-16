@@ -1,5 +1,6 @@
 ---
 title: Home
+position: 2
 navigation: false
 hero:
   image: "/uploads/young-people-737150_1920.jpg"
