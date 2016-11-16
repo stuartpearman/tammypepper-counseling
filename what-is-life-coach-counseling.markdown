@@ -1,5 +1,5 @@
 ---
-title: What is Life Coach Counseling
+title: What Is Teen Life Coach Counseling
 date: 2016-11-16 03:39:00 Z
 position: 3
 navigation: What Is Life Coach Counseling?
