@@ -31,7 +31,7 @@ sections:
       - Be motivated and feel empowered
       - Gain tools to cope with life pressures
       - Create a more balanced life
-      - Reduce their stress & be less overwhelmed
+      - Reduce your stress and be less overwhelmed
       - Establish healthy boundaries
   - title: Develop Healthy Relationships
     body: |-
